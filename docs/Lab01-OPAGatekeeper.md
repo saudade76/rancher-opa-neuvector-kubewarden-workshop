@@ -1,6 +1,6 @@
 # Lab 1 - Open Policy Agent Gatekeeper
 
-# 특정 UID 를 Container(100-200) 를 동작하는 Constraint 생성하는 Workshop. 여기서는 NGINX 두개의 container 이미지를 사용함.
+### 특정 UID 를 Container(100-200) 를 동작하는 Constraint 생성하는 Workshop. 여기서는 NGINX 두개의 container 이미지를 사용함.
 
 In this lab, we'll experience ease of installing Open Policy Agent (OPA) from Rancher cluster tools and quickly setup the constaint to restrict containers to runAs root. 
 
