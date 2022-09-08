@@ -1,5 +1,7 @@
 # Lab-03- NeuVector (Admission Control) 
 
+### 이 LAB 에서는 NeuVector 에 Registry (여기서는 dockerhub) 
+
 ## Background 
 
 In previous workshop on Private Registry with Rancher, we have shown you the capability of Open Policy Agent (OPA).
