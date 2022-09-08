@@ -2,7 +2,7 @@
 
 ### K8S 의 PSP 를 더이상 사용하지 못하여, 대체로 Kubewarden 을 사용가능하며, 정책엔진으로 동작합니다. Helm 으로 설치하며, 여기서는 기본적인 POD 동작시 NET_RAW capability 를 사용하게 동작하지만, Kubewarden 의 Admission Policy (drop-cap-net-raw) 을 적용하여, NET_RAW capability 를 disable 하는 Workshop
 ### NET_RAW is a default permissive setting in Kubernetes allowing ICMP traffic between containers and grants an application the ability to craft raw packets.
-### NET_RAW 를 기본 POD 에서 제거해서, 보안 레벨을 높일 수 있음. 기본 정책을 Kubewarden 을 이용해서 
+### NET_RAW 를 기본 POD 에서 제거해서, 보안 레벨을 높일 수 있음. 기본 정책을 Kubewarden 을 이용할 수 있음을 보여줌.
 
 Kubewarden is a policy engine for Kubernetes. Its mission is to simplify the adoption of policy-as-code . Since PodSecurityPolicy (PSP) is being deprecated in Kubernetes 1.21, you can use Kubewarden as a replacement to PSP policies . 
 
