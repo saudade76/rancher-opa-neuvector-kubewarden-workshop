@@ -1,6 +1,6 @@
 # Lab-02 - Kubewarden - ClusterAdmissionPolicy  
 
-
+# K8S 의 PSP 를 더이상 사용하지 못하여, 대체로 Kubewarden 을 사용가능하며, 정책엔진으로 동작합니다. Helm 으로 설치하며, 여기서는 기본적인 POD 동작시 NET_RAW capability 를 사용하게 동작하지만, Kubewarden 의 Admission Policy (drop-cap-net-raw) 을 적용하여, NET_RAW capability 를 disable 하는 Workshop
 
 Kubewarden is a policy engine for Kubernetes. Its mission is to simplify the adoption of policy-as-code . Since PodSecurityPolicy (PSP) is being deprecated in Kubernetes 1.21, you can use Kubewarden as a replacement to PSP policies . 
 
