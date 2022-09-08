@@ -1,5 +1,7 @@
 # Lab 1 - Open Policy Agent Gatekeeper
 
+특정 UID 를 Container(100-200) 를 동작하는 Constraint 생성하는 Workshop
+
 In this lab, we'll experience ease of installing Open Policy Agent (OPA) from Rancher cluster tools and quickly setup the constaint to restrict containers to runAs root. 
 
 ###### Usecase: Generally docker containers run with root privileges which is useful for the developers because of unrestricted container management e.g. installing packages, changing configurations, associating privileged ports etc. But running containers as root in QA and Production isn't a good security practice and can cause malicious process to gain non-federated access which in turn be catastrophic. Using OPA, we can create such policy which restrict cluster to run container as root user.     
