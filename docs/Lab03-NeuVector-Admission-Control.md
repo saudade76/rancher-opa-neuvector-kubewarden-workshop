@@ -2,6 +2,8 @@
 
 ## Background 
 
+### 여기서는 NeuVector 에 dockerhub registry 를 등록하고, 특정 이미지(nginx:latest) 을 Scan 할 수 있으며, CVE 값들의 결과를 확인 할 수 있다. 확인된 CVE Admission control 정책에 넣어서, Block 하는 시나리오. 기본 NeuVector 는 Monitor 로 동작하며, Protect 로 변경해서 Block 가능. 이후 Rancher 를 접속해서, nginx:latest 를 다운로드 할 경우에는 nginx:latest 에 CVE 값 (CVE-2019-8457) 에 의해 설치가 안됨을 확인. admission webhook "neuvector-validating-admission-webhook.neuvector.svc" denied the request: Creation of Kubernetes Deployment is denied.
+
 In previous workshop on Private Registry with Rancher, we have shown you the capability of Open Policy Agent (OPA).
 
 GitHub link for Workshop 'https://github.com/dsohk/rancher-private-registry-workshop'
